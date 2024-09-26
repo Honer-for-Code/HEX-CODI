@@ -1,0 +1,109 @@
+/* ====== For Laptop ====== */
+
+@media screen and (max-width:1280px) {
+    footer {
+        .footer-content {
+            .about {
+                max-width: 50%;
+
+                .p {
+                    font-size: clamp(15px, 4vw, 18px);
+                }
+            }
+
+            .h1 {
+                font-size: clamp(25px, 4vw, 32px);
+            }
+
+            .ul {
+                .link {
+                    font-size: clamp(15px, 4vw, 18px);
+                }
+            }
+        }
+    }
+}
+
+
+
+/* ====== For Mobile Dextop ====== */
+
+@media screen and (max-width:1050px) {
+    footer {
+        .footer-content {
+            flex-wrap: wrap;
+            row-gap: 30px;
+
+            .about {
+                max-width: 100%;
+
+                .p {
+                    font-size: clamp(15px, 4vw, 18px);
+                }
+            }
+
+            .categories {
+                width: 100%;
+            }
+
+            .know-more {
+                width: 100%;
+            }
+
+            .h1 {
+                font-size: clamp(25px, 4vw, 32px);
+            }
+
+            .ul {
+                .link {
+                    font-size: clamp(15px, 4vw, 18px);
+                }
+            }
+        }
+
+        .copyright {
+            .copyright-content {
+                font-size: 15px;
+
+                .b {
+                    font-size: 22px;
+                }
+
+            }
+
+            .subscribe{
+                .ul{
+                    .link{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/* ====== For Mobile ====== */
+
+@media screen and (max-width:550px) {
+    footer{
+        .copyright {
+            flex-wrap: wrap-reverse;
+            padding: 0;
+            text-align: center;
+            row-gap: 5px;
+            .copyright-content {
+                width: 100%;
+
+            }
+
+            .subscribe{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+    }
+}

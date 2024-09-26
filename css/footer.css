@@ -1,0 +1,94 @@
+footer {
+    background: var(--footer-bg);
+    color: var(--color);
+    padding: 20px 0;
+    text-transform: capitalize;
+    font-family: var(--f-f-15);
+
+    .footer-content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0 20px;
+
+        .about {
+            max-width: 60%;
+
+            .p {
+                text-align: justify;
+                font-size: clamp(15px, 4vw, 20px);
+            }
+        }
+
+        .h1 {
+            margin-bottom: 30px;
+            font-family: var(--f-f-4);
+            font-size: clamp(25px, 4vw, 35px);
+        }
+
+        .ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+
+            .link {
+                text-decoration: none;
+                color: var(--color);
+                padding: 0 0 10px 10px;
+                display: block;
+                font-size: clamp(15px, 4vw, 20px);
+            }
+            .link:hover{
+                color: var(--hover-color);
+            }
+        }
+    }
+
+    .hr {
+        opacity: .7;
+    }
+
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 25px;
+
+
+        .copyright-content {
+            font-size: clamp(15px, 4vw, 18px);
+            font-family: var(--f-f-12);
+
+            .b {
+                text-transform: uppercase;
+                font-family: var(--f-f-15);
+                font-size: 25px;
+            }
+        }
+
+        .subscribe {
+            .ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                column-gap: 20px;
+
+                .link {
+                    color: var(--color);
+                    font-size: clamp(20px, 4vw, 30px);
+                }
+                .link i{
+                    transition: transform .2s ease-in-out;
+                }
+                .link i:hover{
+                    color: var(--hover-color);
+                    transform: scale(1.5);
+                }
+            }
+        }
+    }
+}

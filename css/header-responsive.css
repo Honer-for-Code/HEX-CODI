@@ -1,0 +1,212 @@
+/* ====== For Laptop ====== */
+
+@media screen and (max-width:1280px) {
+    header {
+        .navigation-bar {
+            .ul {
+                column-gap: 5px;
+
+                .link {
+                    padding: 7px 10px;
+                    column-gap: 0;
+                }
+            }
+        }
+
+        .navigation-btns {
+            .search-box {
+                font-size: 30px;
+
+                #search {
+                    .input-text {
+                        width: 93%;
+                        padding: 5px 10px;
+
+                    }
+
+                    .reset {
+                        width: 7%;
+                    }
+                }
+            }
+
+            .profile {
+                .profile-image {
+                    width: 55px;
+                    margin: 5px 0;
+                }
+
+                .ul {
+                    right: 1.4%;
+                }
+            }
+        }
+
+    }
+}
+
+
+/* ====== For Mobile Dextop ====== */
+
+@media screen and (max-width:1050px) {
+    header {
+        .dropdown-container-1 {
+            column-gap: 10px;
+
+            .dropdown-content {
+                display: block;
+                font-size: 40px;
+                margin-top: 6px;
+            }
+
+            .logo-content {
+                .img-content {
+                    display: none;
+                }
+            }
+        }
+
+        .navigation-bar {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            display: none;
+
+            .ul {
+                position: fixed;
+                height: 100vh;
+                flex-direction: column;
+                background: var(--header-bg);
+                row-gap: 20px;
+                align-items: flex-start;
+                padding: 20px 10px 0 20px;
+
+                li {
+                    width: 100%;
+                }
+
+                .li{
+                    .ulul{
+                        position: static;
+                        margin-top: 20px;
+                        border-top-left-radius: 8px;
+                        border-top-right-radius: 8px;
+                    }
+                }
+
+                button.link {
+                    width: 100%;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        .navigation-btns {
+            .search-box {
+                font-size: 30px;
+
+                #search {
+                    .input-text {
+                        width: 93%;
+                        padding: 5px 10px;
+
+                    }
+
+                    .reset {
+                        width: 7%;
+                    }
+                }
+            }
+
+            .profile {
+                .profile-image {
+                    width: 55px;
+                    margin: 5px 0;
+                }
+
+                .ul {
+                    top: 115%;
+                    right: 2.4%;
+                }
+
+                .ul::after {
+                    top: -4.2%;
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .open.navigation-bar{
+        display: block;
+    }
+}
+
+
+/* ====== For Mobile ====== */
+
+@media screen and (max-width:550px) {
+    header {
+        .dropdown-container-1 {
+            column-gap: 10px;
+
+            .dropdown-content {
+                display: block;
+                font-size: 30px;
+                margin-top: 6px;
+            }
+
+            .logo-content {
+                .img-content {
+                    display: none;
+                }
+            }
+        }
+
+        .navigation-bar {
+            display: none;
+        }
+
+        .navigation-btns {
+            .search-box {
+                font-size: 30px;
+
+                #search {
+                    .input-text {
+                        width: 85%;
+                        padding: 5px 10px;
+
+                    }
+
+                    .reset {
+                        width: 15%;
+                    }
+                }
+            }
+
+            .theme {
+                #theme {
+                    width: 28px;
+                }
+            }
+
+            .profile {
+                .profile-image {
+                    width: 50px;
+                    margin: 5px 0;
+                }
+
+                .ul {
+                    top: 115%;
+                    right: 4.8%;
+                }
+
+                /* .ul::after{
+                    top: -4.2%;
+                    height: 20px;
+                    width: 20px;
+                } */
+            }
+        }
+    }
+}

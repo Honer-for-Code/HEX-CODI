@@ -1,0 +1,45 @@
+:root{
+    --f-f-all: 'sans-serif';
+    --f-f-1: "Amatic SC", system-ui;
+    --f-f-2: "Baskervville", system-ui;
+    --f-f-3: "Bitter", system-ui;
+    --f-f-4: "Black Ops One", system-ui;
+    --f-f-5: "Bungee Tint", system-ui;
+    --f-f-6: "Exo 2", system-ui;
+    --f-f-7: "Germania One", system-ui;
+    --f-f-8: "Kalam", system-ui;
+    --f-f-9: "Kanit", system-ui;
+    --f-f-10: "Nerko One", system-ui;
+    --f-f-11: "New Amsterdam", system-ui;
+    --f-f-12: "New Rocker", system-ui;
+    --f-f-13: "Playwrite CU", system-ui;
+    --f-f-14: "Protest Guerrilla", system-ui;
+    --f-f-15: "Rajdhani", system-ui;
+    --f-f-16: "Rowdies", system-ui;
+
+
+
+    --color: whitesmoke;
+
+
+    --header-bg: #1f2937;
+    --logo-bg: #7e22ce;
+    --nav-hover: #808080a1;
+    --sub-manu-bg: #34455d;
+    --hover-color: #9c2cff;
+
+
+    --footer-bg: #1f2937;
+
+}
+
+
+.dark-theme{
+    --color: rgb(22, 21, 21);
+
+
+    --sub-manu-bg: #34455d;
+    --nav-hover: #808080a1;
+    --logo-bg: #7e22ce;
+    --header-bg: #1f2937;
+}
